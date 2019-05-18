@@ -32,9 +32,9 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.12/Modules/Platform/UnixPaths.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.12/Modules/ProcessorCount.cmake"
   "../CMakeLists.txt"
-  "CMakeFiles/3.12.0/CMakeCCompiler.cmake"
-  "CMakeFiles/3.12.0/CMakeCXXCompiler.cmake"
-  "CMakeFiles/3.12.0/CMakeSystem.cmake"
+  "CMakeFiles/3.12.1/CMakeCCompiler.cmake"
+  "CMakeFiles/3.12.1/CMakeCXXCompiler.cmake"
+  "CMakeFiles/3.12.1/CMakeSystem.cmake"
   )
 
 # The corresponding makefile is:
@@ -53,6 +53,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/InsertionSort.dir/DependInfo.cmake"
   "CMakeFiles/SelectionSort.dir/DependInfo.cmake"
   "CMakeFiles/QucikSort.dir/DependInfo.cmake"
+  "CMakeFiles/BitSort.dir/DependInfo.cmake"
   "CMakeFiles/BubbleSort.dir/DependInfo.cmake"
   "CMakeFiles/main.dir/DependInfo.cmake"
   )

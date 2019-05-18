@@ -1,7 +1,8 @@
-/Users/dufuhang/Desktop/数据结构/Sorts/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/dufuhang/Desktop/数据结构/Sorts/cmake-build-debug/CMakeFiles/InsertionSort.dir
-/Users/dufuhang/Desktop/数据结构/Sorts/cmake-build-debug/CMakeFiles/SelectionSort.dir
-/Users/dufuhang/Desktop/数据结构/Sorts/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/dufuhang/Desktop/数据结构/Sorts/cmake-build-debug/CMakeFiles/QucikSort.dir
-/Users/dufuhang/Desktop/数据结构/Sorts/cmake-build-debug/CMakeFiles/BubbleSort.dir
-/Users/dufuhang/Desktop/数据结构/Sorts/cmake-build-debug/CMakeFiles/main.dir
+/Users/dufuhang/Desktop/数据结构/Sorting-Algorithm/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/dufuhang/Desktop/数据结构/Sorting-Algorithm/cmake-build-debug/CMakeFiles/InsertionSort.dir
+/Users/dufuhang/Desktop/数据结构/Sorting-Algorithm/cmake-build-debug/CMakeFiles/SelectionSort.dir
+/Users/dufuhang/Desktop/数据结构/Sorting-Algorithm/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/dufuhang/Desktop/数据结构/Sorting-Algorithm/cmake-build-debug/CMakeFiles/QucikSort.dir
+/Users/dufuhang/Desktop/数据结构/Sorting-Algorithm/cmake-build-debug/CMakeFiles/BitSort.dir
+/Users/dufuhang/Desktop/数据结构/Sorting-Algorithm/cmake-build-debug/CMakeFiles/BubbleSort.dir
+/Users/dufuhang/Desktop/数据结构/Sorting-Algorithm/cmake-build-debug/CMakeFiles/main.dir

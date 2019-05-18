@@ -59,10 +59,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/dufuhang/Desktop/数据结构/Sorts
+CMAKE_SOURCE_DIR = /Users/dufuhang/Desktop/数据结构/Sorting-Algorithm
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/dufuhang/Desktop/数据结构/Sorts/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/dufuhang/Desktop/数据结构/Sorting-Algorithm/cmake-build-debug
 
 #=============================================================================
 # Target rules for target CMakeFiles/InsertionSort.dir
@@ -71,7 +71,7 @@ CMAKE_BINARY_DIR = /Users/dufuhang/Desktop/数据结构/Sorts/cmake-build-debug
 CMakeFiles/InsertionSort.dir/all:
 	$(MAKE) -f CMakeFiles/InsertionSort.dir/build.make CMakeFiles/InsertionSort.dir/depend
 	$(MAKE) -f CMakeFiles/InsertionSort.dir/build.make CMakeFiles/InsertionSort.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/dufuhang/Desktop/数据结构/Sorts/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target InsertionSort"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/dufuhang/Desktop/数据结构/Sorting-Algorithm/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target InsertionSort"
 .PHONY : CMakeFiles/InsertionSort.dir/all
 
 # Include target in all.
@@ -81,9 +81,9 @@ all: CMakeFiles/InsertionSort.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/InsertionSort.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dufuhang/Desktop/数据结构/Sorts/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dufuhang/Desktop/数据结构/Sorting-Algorithm/cmake-build-debug/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/InsertionSort.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dufuhang/Desktop/数据结构/Sorts/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dufuhang/Desktop/数据结构/Sorting-Algorithm/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/InsertionSort.dir/rule
 
 # Convenience name for target.
@@ -108,7 +108,7 @@ clean: CMakeFiles/InsertionSort.dir/clean
 CMakeFiles/SelectionSort.dir/all:
 	$(MAKE) -f CMakeFiles/SelectionSort.dir/build.make CMakeFiles/SelectionSort.dir/depend
 	$(MAKE) -f CMakeFiles/SelectionSort.dir/build.make CMakeFiles/SelectionSort.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/dufuhang/Desktop/数据结构/Sorts/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target SelectionSort"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/dufuhang/Desktop/数据结构/Sorting-Algorithm/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target SelectionSort"
 .PHONY : CMakeFiles/SelectionSort.dir/all
 
 # Include target in all.
@@ -118,9 +118,9 @@ all: CMakeFiles/SelectionSort.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/SelectionSort.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dufuhang/Desktop/数据结构/Sorts/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dufuhang/Desktop/数据结构/Sorting-Algorithm/cmake-build-debug/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/SelectionSort.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dufuhang/Desktop/数据结构/Sorts/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dufuhang/Desktop/数据结构/Sorting-Algorithm/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/SelectionSort.dir/rule
 
 # Convenience name for target.
@@ -145,7 +145,7 @@ clean: CMakeFiles/SelectionSort.dir/clean
 CMakeFiles/QucikSort.dir/all:
 	$(MAKE) -f CMakeFiles/QucikSort.dir/build.make CMakeFiles/QucikSort.dir/depend
 	$(MAKE) -f CMakeFiles/QucikSort.dir/build.make CMakeFiles/QucikSort.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/dufuhang/Desktop/数据结构/Sorts/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target QucikSort"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/dufuhang/Desktop/数据结构/Sorting-Algorithm/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target QucikSort"
 .PHONY : CMakeFiles/QucikSort.dir/all
 
 # Include target in all.
@@ -155,9 +155,9 @@ all: CMakeFiles/QucikSort.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/QucikSort.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dufuhang/Desktop/数据结构/Sorts/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dufuhang/Desktop/数据结构/Sorting-Algorithm/cmake-build-debug/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/QucikSort.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dufuhang/Desktop/数据结构/Sorts/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dufuhang/Desktop/数据结构/Sorting-Algorithm/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/QucikSort.dir/rule
 
 # Convenience name for target.
@@ -176,13 +176,50 @@ clean: CMakeFiles/QucikSort.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/BitSort.dir
+
+# All Build rule for target.
+CMakeFiles/BitSort.dir/all:
+	$(MAKE) -f CMakeFiles/BitSort.dir/build.make CMakeFiles/BitSort.dir/depend
+	$(MAKE) -f CMakeFiles/BitSort.dir/build.make CMakeFiles/BitSort.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/dufuhang/Desktop/数据结构/Sorting-Algorithm/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target BitSort"
+.PHONY : CMakeFiles/BitSort.dir/all
+
+# Include target in all.
+all: CMakeFiles/BitSort.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/BitSort.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dufuhang/Desktop/数据结构/Sorting-Algorithm/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/BitSort.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dufuhang/Desktop/数据结构/Sorting-Algorithm/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/BitSort.dir/rule
+
+# Convenience name for target.
+BitSort: CMakeFiles/BitSort.dir/rule
+
+.PHONY : BitSort
+
+# clean rule for target.
+CMakeFiles/BitSort.dir/clean:
+	$(MAKE) -f CMakeFiles/BitSort.dir/build.make CMakeFiles/BitSort.dir/clean
+.PHONY : CMakeFiles/BitSort.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/BitSort.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/BubbleSort.dir
 
 # All Build rule for target.
 CMakeFiles/BubbleSort.dir/all:
 	$(MAKE) -f CMakeFiles/BubbleSort.dir/build.make CMakeFiles/BubbleSort.dir/depend
 	$(MAKE) -f CMakeFiles/BubbleSort.dir/build.make CMakeFiles/BubbleSort.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/dufuhang/Desktop/数据结构/Sorts/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target BubbleSort"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/dufuhang/Desktop/数据结构/Sorting-Algorithm/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target BubbleSort"
 .PHONY : CMakeFiles/BubbleSort.dir/all
 
 # Include target in all.
@@ -192,9 +229,9 @@ all: CMakeFiles/BubbleSort.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/BubbleSort.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dufuhang/Desktop/数据结构/Sorts/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dufuhang/Desktop/数据结构/Sorting-Algorithm/cmake-build-debug/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/BubbleSort.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dufuhang/Desktop/数据结构/Sorts/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dufuhang/Desktop/数据结构/Sorting-Algorithm/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/BubbleSort.dir/rule
 
 # Convenience name for target.
@@ -219,7 +256,7 @@ clean: CMakeFiles/BubbleSort.dir/clean
 CMakeFiles/main.dir/all:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/depend
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/dufuhang/Desktop/数据结构/Sorts/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/dufuhang/Desktop/数据结构/Sorting-Algorithm/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target main"
 .PHONY : CMakeFiles/main.dir/all
 
 # Include target in all.
@@ -229,9 +266,9 @@ all: CMakeFiles/main.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dufuhang/Desktop/数据结构/Sorts/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dufuhang/Desktop/数据结构/Sorting-Algorithm/cmake-build-debug/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dufuhang/Desktop/数据结构/Sorts/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dufuhang/Desktop/数据结构/Sorting-Algorithm/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/main.dir/rule
 
 # Convenience name for target.

@@ -12,3 +12,5 @@ add_executable(QucikSort QuickSort/main.cc)
 add_executable(SelectionSort SelectionSort/main.cc)
 
 add_executable(InsertionSort InsertionSort/main.cc)
+
+add_executable(BitSort BitSort/main.cc)

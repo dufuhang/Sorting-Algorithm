@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/dufuhang/Desktop/数据结构/Sorts
+CMAKE_SOURCE_DIR = /Users/dufuhang/Desktop/数据结构/Sorting-Algorithm
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/dufuhang/Desktop/数据结构/Sorts/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/dufuhang/Desktop/数据结构/Sorting-Algorithm/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dufuhang/Desktop/数据结构/Sorts/cmake-build-debug/CMakeFiles /Users/dufuhang/Desktop/数据结构/Sorts/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dufuhang/Desktop/数据结构/Sorting-Algorithm/cmake-build-debug/CMakeFiles /Users/dufuhang/Desktop/数据结构/Sorting-Algorithm/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dufuhang/Desktop/数据结构/Sorts/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dufuhang/Desktop/数据结构/Sorting-Algorithm/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -150,6 +150,19 @@ QucikSort/fast:
 .PHONY : QucikSort/fast
 
 #=============================================================================
+# Target rules for targets named BitSort
+
+# Build rule for target.
+BitSort: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 BitSort
+.PHONY : BitSort
+
+# fast build rule for target.
+BitSort/fast:
+	$(MAKE) -f CMakeFiles/BitSort.dir/build.make CMakeFiles/BitSort.dir/build
+.PHONY : BitSort/fast
+
+#=============================================================================
 # Target rules for targets named BubbleSort
 
 # Build rule for target.
@@ -174,6 +187,33 @@ main: cmake_check_build_system
 main/fast:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
+
+BitSort/main.o: BitSort/main.cc.o
+
+.PHONY : BitSort/main.o
+
+# target to build an object file
+BitSort/main.cc.o:
+	$(MAKE) -f CMakeFiles/BitSort.dir/build.make CMakeFiles/BitSort.dir/BitSort/main.cc.o
+.PHONY : BitSort/main.cc.o
+
+BitSort/main.i: BitSort/main.cc.i
+
+.PHONY : BitSort/main.i
+
+# target to preprocess a source file
+BitSort/main.cc.i:
+	$(MAKE) -f CMakeFiles/BitSort.dir/build.make CMakeFiles/BitSort.dir/BitSort/main.cc.i
+.PHONY : BitSort/main.cc.i
+
+BitSort/main.s: BitSort/main.cc.s
+
+.PHONY : BitSort/main.s
+
+# target to generate assembly for a file
+BitSort/main.cc.s:
+	$(MAKE) -f CMakeFiles/BitSort.dir/build.make CMakeFiles/BitSort.dir/BitSort/main.cc.s
+.PHONY : BitSort/main.cc.s
 
 BubbleSort/main.o: BubbleSort/main.cc.o
 
@@ -321,8 +361,12 @@ help:
 	@echo "... SelectionSort"
 	@echo "... rebuild_cache"
 	@echo "... QucikSort"
+	@echo "... BitSort"
 	@echo "... BubbleSort"
 	@echo "... main"
+	@echo "... BitSort/main.o"
+	@echo "... BitSort/main.i"
+	@echo "... BitSort/main.s"
 	@echo "... BubbleSort/main.o"
 	@echo "... BubbleSort/main.i"
 	@echo "... BubbleSort/main.s"

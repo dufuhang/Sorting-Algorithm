@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/dufuhang/Desktop/数据结构/Sorts/InsertionSort/main.cc" "/Users/dufuhang/Desktop/数据结构/Sorts/cmake-build-debug/CMakeFiles/InsertionSort.dir/InsertionSort/main.cc.o"
+  "/Users/dufuhang/Desktop/数据结构/Sorting-Algorithm/InsertionSort/main.cc" "/Users/dufuhang/Desktop/数据结构/Sorting-Algorithm/cmake-build-debug/CMakeFiles/InsertionSort.dir/InsertionSort/main.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
